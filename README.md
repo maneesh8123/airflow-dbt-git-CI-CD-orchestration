@@ -17,3 +17,5 @@ _AIRFLOW_WWW_USER_PASSWORD= airflow
 
 # dbt Databricks Token
 DBT_DATABRICKS_TOKEN= your token
+
+uncomment build . and add profiles.yml file path in compose file
