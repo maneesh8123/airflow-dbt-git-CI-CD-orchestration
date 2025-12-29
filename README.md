@@ -2,6 +2,7 @@
 
 ### Running Ariflow in Docker
 [Running Airflow in Docker](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html?utm_source=chatgpt.com#running-airflow-in-docker)
+
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/3.1.5/docker-compose.yaml'
 
 docker compose up -d --build - build the image
