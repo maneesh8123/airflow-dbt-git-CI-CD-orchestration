@@ -1,0 +1,19 @@
+dbtelt:
+  outputs:
+    dev:
+      catalog: dbtelt
+      host: dbc-33f104a0-0d41.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/835f3bb953d4cc95
+      schema: default
+      threads: 8
+      token: "{{ env_var('DBT_DATABRICKS_TOKEN') }}"
+      type: databricks
+    prod:
+      catalog: dbtelt_prod
+      host: dbc-33f104a0-0d41.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/835f3bb953d4cc95
+      schema: default
+      threads: 8
+      token: "{{ env_var('DBT_DATABRICKS_TOKEN') }}"
+      type: databricks
+  target: dev
